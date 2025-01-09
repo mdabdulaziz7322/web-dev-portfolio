@@ -42,6 +42,11 @@
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
 
 /* styles of header */
 .header{
@@ -159,4 +164,63 @@ main section{
 }
 .skill-description{
     text-align: left;
+}
+/* style of resume */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.experience-title{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.experience-subtitle{
+    color: #757575;
+    font-size: 20;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume hr{
+    margin: 30px 5px ;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+.d-cv{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+/* style of footer */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+
 }
